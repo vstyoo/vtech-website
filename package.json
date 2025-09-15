@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  },
+  "name": "vtech-website",
+  "version": "1.0.0",
+  "description": "<!-- VTECH ROBOTICS STORE DOCUMENTATION -->",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./src/css/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

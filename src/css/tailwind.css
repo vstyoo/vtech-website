@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "AeonikFono";
+  src: url("/assets/fonts/AeonikFonoProTRIAL-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AeonikFono-2";
+  src: url("/assets/fonts/AeonikFonoProTRIAL-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.nav-menu a:hover {
+  color: #fff;
+  transition: color 0.1s ease;
+}
+
+.btn-animate {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: rgb(231, 231, 231);
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.btn-animate::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #0f0f0f;
+  z-index: -1;
+  transition: width 0.3s ease;
+}
+
+.btn-cart{
+  font-family: "AeonikFono-2", sans-serif;
+}
+
+.btn-animate:hover::before {
+  border: 1px solid #fff;
+  width: 100%;
+}
+
+.btn-animate:hover {
+  color: white;
+}
+
+.animate-gradient {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #ec4899,
+    #eab308,
+    #a855f7,
+    #ec4899
+  );
+  background-clip: text;
+  background-size: 300%;
+  -webkit-animation: animateGradient 12s ease-in-out infinite alternate;
+  -moz-animation: animateGradient 12s ease-in-out infinite alternate;
+  animation: animateGradient 12s ease-in-out infinite alternate;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.animate-gradient-2 {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #ec4899,
+    #eab308,
+    #a855f7,
+    #ec4899
+  );
+  background-clip: text;
+  background-size: 300%;
+  -webkit-animation: animateGradient 12s ease-in-out infinite alternate;
+  -moz-animation: animateGradient 12s ease-in-out infinite alternate;
+  animation: animateGradient 12s ease-in-out infinite alternate;
+}
+
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-animation {
+  animation: scroll 30s linear infinite;
+}
+
+.scroll-review-container {
+    height: 750px; /* tinggi viewport review */
+    overflow: hidden;
+    position: relative;
+  }
+
+  .scroll-review-wrapper {
+    display: flex;
+    flex-direction: column;
+    animation: scroll-up 40s linear infinite;
+
+    /* Efek faded di atas & bawah */
+    mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+  }
+
+  @keyframes scroll-up {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+
+  .animate-gradient-3 {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #ec4899,
+    #eab308,
+    #a855f7,
+    #ec4899
+  );
+   background-clip: text;
+  background-size: 300%;
+  -webkit-animation: animateGradient 12s ease-in-out infinite alternate;
+  -moz-animation: animateGradient 12s ease-in-out infinite alternate;
+  animation: animateGradient 12s ease-in-out infinite alternate;
+  }
+
+
+ 
+  @keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.animate-float {
+  animation: float 7s ease-in-out infinite;
+}
+
+
