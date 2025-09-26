@@ -19,19 +19,11 @@ vtech merupakan sebuah website yang sifatnya personal web, dimana website ini be
 /- Cart icon   : Mengarahkan user ke menu product untuk membeli produk yang di jual.
 
 --------------------------------------------------
-## Page Content's:
-[Home] : 
-<--Navbar Menu : Home, About, Products, Blog, Contact, Search icon, Cart icon
-<--Hero Section : Highlight demand dari vtech.com (include 2 button< buy && watch video >) + product images
-<--Highlight : Product unggulan dengan penjualan terbanyak
-<--Main product : Menampilkan product utama yang ingin di jual
-<--Review card : Menampilkan reviews positif dari para client
-<--CTA section : Menawarkan program subscribe kepada user
-<--Footer : Menampilkan usefull links, social media, address, privacy policy, contact
 
-<About:
-/VTECH adalah perusahaan yang bergerak di bidang penyediaan alat dan komponen elektronik untuk kebutuhan robotika, Internet of Things (IoT), dan pengembangan teknologi pintar. Kami hadir untuk menjadi solusi terbaik bagi pelajar, hobiis, pengembang, hingga institusi pendidikan yang membutuhkan komponen berkualitas untuk menunjang berbagai proyek teknologi.
-/Didirikan dengan semangat inovasi dan edukasi, VTECH berkomitmen untuk mendukung kemajuan teknologi di Indonesia melalui penyediaan produk-produk yang handal, terjangkau, dan mudah diakses. Kami percaya bahwa setiap orang bisa menciptakan solusi cerdas — asal didukung dengan alat yang tepat >
+About:
+VTECH adalah perusahaan yang bergerak di bidang penyediaan alat dan komponen elektronik untuk kebutuhan robotika, Internet of Things (IoT), dan pengembangan teknologi pintar. Kami hadir untuk menjadi solusi terbaik bagi pelajar, hobiis, pengembang, hingga institusi pendidikan yang membutuhkan komponen berkualitas untuk menunjang berbagai proyek teknologi.
+Didirikan dengan semangat inovasi dan edukasi, VTECH berkomitmen untuk mendukung kemajuan teknologi di Indonesia melalui penyediaan produk-produk yang handal, terjangkau, dan mudah diakses. Kami percaya bahwa setiap orang bisa menciptakan solusi cerdas — asal didukung dengan alat yang tepat
+
 --------------------------------------------------
 
 ## 🚀 Visi Kami
